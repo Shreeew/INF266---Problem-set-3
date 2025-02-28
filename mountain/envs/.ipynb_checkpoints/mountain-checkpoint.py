@@ -45,6 +45,12 @@ class MountainEnv(gym.Env):
         self.set_action_space(backwards)
        
         
+       
+
+        
+
+        
+
         assert render_mode is None or render_mode in self.metadata["render_modes"]
         self.render_mode = render_mode
 
